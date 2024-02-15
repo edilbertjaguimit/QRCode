@@ -13,70 +13,23 @@
     />
 
     <title>Frontend Mentor | QR code component</title>
-
-    <style>
-      * {
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
-        font-family: sans-serif;
-
-      }
-      .container {
-        background: #d5e1ef;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100dvh;
-      }
-      .card {
-        max-width: 300px;
-        height: 480px;
-        padding: 15px;
-        background: #FFFFFF;
-        border-radius: 15px;
-        display: flex;
-        flex-direction: column;
-        box-shadow: 0 1px 15px rgb(0 0 0 / 0.2);
-      }
-      .card img {
-        width: 100%;
-        border-radius: 10px;
-        object-fit: cover;
-      }
-      .title{
-        font-size: 20px;
-        font-weight: bold;
-        font-family: sans-serif;
-        text-align: center;
-      }
-      .sub-title{
-        margin-top: 15px;
-        text-align: center;
-        font-size: 14px;
-        color: #9EA3AE;
-      }
-      .text{
-        margin-top: 12px;
-        padding: 10px;
-      }
-    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div class="container">
+    <main class="container">
       <div class="card">
-        <img src="images/image-qr-code.png" alt="" />
-
-        <div class="text">
-          <div class="title">
-            Improve your front-end skills by building projects
-          </div>
-          <div class="sub-title">
-            Scan the QR code to visit Frontend Mentor and take yout coding skills
-            to the next level
-          </div>
-        </div>
+        <img src="images/image-qr-code.png" alt="image of qr code" />
+        <h1 class="title">
+          Improve your front-end skills by building projects
+        </h1>
+        <p class="sub-title">
+          Scan the QR code to visit Frontend Mentor and take yout coding skills
+          to the next level
+        </p>
       </div>
-    </div>
+    </main>
   </body>
 </html>
